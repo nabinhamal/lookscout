@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { IoReorderThreeOutline, IoClose } from 'react-icons/io5';
 import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/io';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -49,7 +50,7 @@ const Navbar = () => {
                     </div>
                   )}
                 </div>
-                <a href="#" className="text-black-300 hover:text-emerald-900 px-3 py-2 rounded-md text-sm font-bold">Contact</a>
+                <Link to="/contact" className="text-black-300 hover:text-emerald-900 px-3 py-2 rounded-md text-sm font-bold">Contact</Link>
               </div>
             </div>
           </div>
@@ -93,7 +94,7 @@ const Navbar = () => {
                 </div>
               )}
             </div>
-            <a href="#" className="text-black-300 hover:text-white block px-3 py-2 rounded-md text-base font-bold">Contact</a>
+            <Link to="/contact" className="text-black-300 hover:text-white block px-3 py-2 rounded-md text-base font-bold">Contact</Link>
             <a href="#" className="text-black-300 hover:text-white block px-3 py-2 rounded-md text-base font-bold">Sign Up</a>
             <a href="#" className="text-black-300 hover:text-white block px-3 py-2 rounded-md text-base font-bold">Sign</a>
           </div>
