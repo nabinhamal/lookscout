@@ -62,7 +62,7 @@ const About = () => {
   };
 
   return (
-    <section className="h-auto w-screen mt-10 py-24 bg-white border-b border-gray-400 ">
+    <section className="h-auto w-auto  mt-10 py-24 bg-white border-b border-gray-400 ">
       <div className="flex flex-col justify-center text-center items-center">
         <h2 className="text-black text-4xl font-bold">Messaging for all</h2>
         <h1 className="mt-4 text-xl hidden sm:block text-gray-500">

@@ -10,10 +10,10 @@ body {
   min-height: 100vh;
   height: 100vh;
   background: white;
-  display: flex;
+
  
   font-family: "Inter", sans-serif;
- 
+ flex-direction: column; 
 
   
 }
