@@ -27,7 +27,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-[#EAEBF0] border-b border-gray-400 fixed top-0 z-50 w-full ">
+    <nav className="bg-[#EAEBF0] border-b border-gray-400 fixed top-0 z-50 w-full  ">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between h-16">
           <div className=" lg:ml-10 md:ml-5 sm:ml-4 flex items-center">
@@ -56,7 +56,7 @@ const Navbar = () => {
           <div className="hidden md:block">
             <div className="ml-4  lg:mt-4 md:mt-1 flex items-center md:ml-6">
               <button
-                className={`px-3 py-2  rounded-md text-sm font-bold focus:outline-none ${isActive === 'signUp' ? 'bg-blue-500 text-white' : 'text-blue-300 hover:text-emerald-900'}`}
+                className={`px-3 py-2 rounded-md text-sm font-bold focus:outline-none ${isActive === 'signUp' ? 'bg-blue-500 text-white' : 'text-blue-300 hover:text-emerald-900'}`}
                 onClick={() => handleButtonClick('signUp')}
               >
                 Sign Up
@@ -95,7 +95,7 @@ const Navbar = () => {
             </div>
             <a href="#" className="text-black-300 hover:text-white block px-3 py-2 rounded-md text-base font-bold">Contact</a>
             <a href="#" className="text-black-300 hover:text-white block px-3 py-2 rounded-md text-base font-bold">Sign Up</a>
-            <a href="#" className="text-black-300 hover:text-white block px-3 py-2 rounded-md text-base font-bold">Sign In</a>
+            <a href="#" className="text-black-300 hover:text-white block px-3 py-2 rounded-md text-base font-bold">Sign</a>
           </div>
         </div>
       )}

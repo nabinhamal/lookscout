@@ -25,7 +25,7 @@ const Team = () => {
   ];
 
   return (
-    <section className="h-auto w-auto border-b border-gray-500 flex flex-col justify-center items-center">
+    <section className="h-auto w-auto border-b md:mt-28 border-gray-500 flex flex-col justify-center items-center">
       <div className="text-center mb-10">
         <h2 className="text-black text-2xl mt-10 font-semibold">
           The Core of Our Team
@@ -37,7 +37,7 @@ const Team = () => {
         </h1>
       </div>
       {/* Team Members */}
-      <div className="flex flex-wrap sm:items-start">
+      <div className="flex flex-wrap text-start px-32">
         {/* Map over the team members array and render TeamCard for each member */}
         {teamMembers.map((member, index) => (
           <TeamCard key={index} {...member} />

@@ -1,12 +1,11 @@
 import React from "react";
 
-import Button from "../components/Button";
-import Navbar from "../components/NavBar/NavBar";
+
 
 const Home = () => {
   return (
     <section
-      className="h-auto w-auto md:bg-top bg-[#EAEBF0]"
+      className="h-auto w-auto bg-[#EAEBF0]"
     >
      
       <div className="flex flex-col justify-center text-center items-center h-screen">
