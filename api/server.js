@@ -18,7 +18,7 @@ const __dirname = path.resolve();
 const app = express();
 
 app.use(cors({
-    origin: 'http://https://lookscoutnh.vercel.app',
+    origin: 'https://lookscout-aaui.onrender.com',
   }));
 app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: true }));

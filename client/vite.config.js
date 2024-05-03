@@ -7,7 +7,7 @@ export default defineConfig({
   server:{
     proxy:{
       "/api":{
-        target: "https://lookscoutnh.vercel.app",
+        target: "https://lookscout-aaui.onrender.com",
         secure: false,
       }
     }
