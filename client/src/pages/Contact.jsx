@@ -25,7 +25,7 @@ const Contact = () => {
     }
 
     try {
-      const response = await axios.post("http://localhost:5000/api/create-contact", {
+      const response = await axios.post("https://lookscout-ten.vercel.app/api/create-contact", {
         firstName: data.firstName,
         email: data.email,
         phone: data.phone,
