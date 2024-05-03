@@ -12,6 +12,8 @@ dotenv.config();
 
 //databse config
 connectDB();
+
+
 const __dirname = path.resolve();
 const app = express();
 
