@@ -16,10 +16,8 @@ export const createContact = async (req, res) => {
 export const getAllContacts = async (req, res) => {
   try {
     const contacts = await Contact.find();
-    res.status(200).json({contacts});
+    res.status(200).json({ contacts });
   } catch (error) {
     res.status(500).json({ message: 'Error fetching contacts', error: error.message });
   }
 };
-
-

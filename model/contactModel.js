@@ -14,10 +14,11 @@ const contactSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  getInTouch: [{
-    type: String,
+  getInTouch: {
+    type: [String], 
     required: true,
-  }],
+    enum: ['inquiry', 'appointment'] 
+  },
   message: {
     type: String,
     required: true,
