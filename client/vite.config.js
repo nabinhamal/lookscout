@@ -8,7 +8,7 @@ export default defineConfig({
     port: 3000,
     proxy:{
       "/api":{
-        target: "https://lookscout-ten.vercel.app",
+        target: "https://lookscoutnh.vercel.app",
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, ""),
       }
