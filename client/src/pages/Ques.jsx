@@ -5,7 +5,7 @@ import { IoIosArrowDown } from "react-icons/io";
 const Ques = () => {
   return (
     <section
-      className="h-screen w-screen mt-[600px] lg:mt-[-5px] md:mt-[-2px] "
+      className="h-screen w-screen mt-[700px] lg:mt-[-5px] md:mt-[-2px] "
     >
      
       <div className="flex flex-col px-20 justify-center text-center items-center ">
