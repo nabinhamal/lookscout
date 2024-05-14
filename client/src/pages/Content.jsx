@@ -2,7 +2,7 @@ import React from "react";
 
 const Content = () => {
   return (
-    <section className="h-screen w-screen md:mt-12 mt-44 bg-[#2B63D9]">
+    <section className="h-screen w-screen md:mt-12 mt-52 bg-[#2B63D9]">
       <div className="flex flex-col justify-center text-center items-center py-10 lg:py-24">
         <h2 className="text-white mt-12 lg:mt-16 md:mt-24 text-2xl lg:text-4xl font-medium uppercase">1% Of The Industry</h2>
         <h1 className="mt-12 md:text-5xl text-2xl lg:text-2xl px-6 lg:px-12 text-white font-bold">

@@ -3,7 +3,7 @@ import Button from "../components/Button";
 
 const Demo = () => {
   return (
-    <div className="w-screen  h-screen flex flex-col mt-[1200px]  lg:-mt-[100px] md:mt-[500px] lg:flex-row md:flex-row justify-center items-center  ">
+    <div className="w-screen  h-screen flex flex-col mt-[1400px]  lg:-mt-[100px] md:mt-[500px] lg:flex-row md:flex-row justify-center items-center  ">
       {/* Left div */}
       <div className="lg:w-1/2 md:1/2  px-4 lg:px-10 flex justify-center items-center z-10">
         <div className="bg-white p-8 rounded-lg text-left">

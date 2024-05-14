@@ -56,7 +56,7 @@ const Navbar = () => {
               </div>
             </div>
           </div>
-          <div className="hidden md:block">
+          <div className="hidden lg:block">
             <div className="ml-4  lg:mt-4 md:mt-1 flex items-center md:ml-6">
               <button
                 className={`px-3 py-2 rounded-md text-sm font-bold focus:outline-none ${isActive === 'signUp' ? 'bg-blue-500 text-white' : 'text-blue-300 hover:text-emerald-900'}`}
@@ -81,7 +81,7 @@ const Navbar = () => {
         </div>
       </div>
       {(isOpen || isMobileMenuOpen) && (
-        <div className="md:hidden">
+        <div className="lg:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <a href="#" className="text-black-300  block px-3 py-2 rounded-md text-base font-bold">Home</a>
             <a href="#" className="text-black-300  block px-3 py-2 rounded-md text-base font-bold">Our Products</a>
