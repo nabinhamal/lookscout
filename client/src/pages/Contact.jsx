@@ -55,7 +55,7 @@ const Contact = () => {
   return (
     <>
       <Navbar />
-      <section className="bg-gray-900 flex flex-col items-center justify-center gap-12 my-12 min-h-screen">
+      <section className="bg-gray-900 flex flex-col items-center justify-center gap-12 mx-auto w-auto">
         <div className="flex w-full items-center justify-center py-3">
           <h1 className="text-white bg-clip-text mt-12 uppercase text-xl tracking-widest" style={{ whiteSpace: "nowrap" }}>
             Get In Touch With Us
