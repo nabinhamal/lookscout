@@ -56,7 +56,7 @@ const Contact = () => {
     <>
       <Navbar />
       <>
-      <section className="w-screen lg:h-screen md:h-screen bg-gray-900 flex flex-col items-center justify-center gap-2 mt-[-100px]  lg:mt-16 md:mt-10 mb-12">
+      <section className="w-screen h-screen  bg-gray-900 flex flex-col items-center justify-center gap-2 mt-[-100px]  lg:mt-16 md:mt-10 mb-12">
         <div className="flex flex-col items-center justify-center mt-48 md:m✖  md:mt-0 lg:mt-[-70px]">
           <h1 className="text-white text-xl md:text-2xl lg:text-3xl uppercase">Get In Touch With Us</h1>
         </div>
