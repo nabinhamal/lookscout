@@ -1,24 +1,45 @@
-
 @import url(https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap);
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
 body {
-  width: 100vh;
+  width: 100%;
   min-height: 100vh;
   height: 100vh;
   background: white;
-
- 
   font-family: "Inter", sans-serif;
- flex-direction: column; 
-
-  
+  flex-direction: column;
 }
 
 body,
 html {
   scroll-behavior: smooth;
+}
+
+/* Responsive design */
+
+/* For large screens */
+@media (min-width: 1024px) {
+  body {
+    max-width: 1024px; /* Fixed size for large screens */
+    margin: 0 auto; /* Center content */
+  }
+}
+
+/* For medium screens */
+@media (max-width: 1023px) {
+  body {
+    max-width: 768px; /* Fixed size for medium screens */
+    margin: 0 auto; /* Center content */
+  }
+}
+
+/* For small screens */
+@media (max-width: 639px) {
+  body {
+    max-width: 360px; /* Fixed size for small screens */
+    margin: 0 auto; /* Center content */
+  }
 }
