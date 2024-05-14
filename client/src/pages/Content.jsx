@@ -9,10 +9,10 @@ const Content = () => {
           Welcome to your new digital reality that will rock your world truly at all.
         </h1>
         <div className="flex flex-col md:flex-row lg:flex-row gap-6 mt-8">
-          <button className="bg-white flex items-center font-bold text-xl text-blue-500 rounded-md py-5 px-32 lg:px-16">
+          <button className="bg-white flex items-center font-bold text-xl text-blue-500 rounded-md py-5 px-12 md:px-16 lg:px-24">
             Sign Up
           </button>
-          <button className="bg-[#437EF7] flex font-bold items-center text-xl text-white rounded-md py-5 px-32 lg:px-16">
+          <button className="bg-[#437EF7] flex font-bold items-center text-xl text-white rounded-md py-5 px-12 md:px-16 lg:px-24">
             Log In
           </button>
         </div>

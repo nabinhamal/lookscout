@@ -55,19 +55,19 @@ const Contact = () => {
   return (
     <>
       <Navbar />
-      <section  className="bg-gray-900 flex items-center justify-center flex-col gap-12 my-12 h-screen">
+      <section className="bg-gray-900 flex flex-col items-center justify-center gap-12 my-12 min-h-screen">
         <div className="flex w-full items-center justify-center py-3">
           <h1 className="text-white bg-clip-text mt-12 uppercase text-xl tracking-widest" style={{ whiteSpace: "nowrap" }}>
             Get In Touch With Us
           </h1>
         </div>
-        <div className="flex flex-col px-4 -mt-10 text-gray-400">
+        <div className="flex flex-col px-4 text-gray-400">
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
           <p className="text-center">industry's standard dummy text ever since the 1500s, </p>
         </div>
-        <div className="flex flex-col bg-gray-700 rounded-lg px-24 items-center justify-start gap-4 w-[800px] lg:w-[1300px] md:w-[900px]  ">
-          <div className="w-full lg:w-[1200px] md:w-[800px] px-2 mt-12 flex flex-col items-center justify-start gap-4">
-            <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 gap-4 w-full">
+        <div className="flex flex-col bg-gray-700 rounded-lg px-4 items-center justify-start gap-4 w-full max-w-screen-xl">
+          <div className="w-full px-2 mt-12 flex flex-col items-center justify-start gap-4">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 w-full">
               <div className="flex flex-col">
                 <label htmlFor="firstName" className="text-white mb-1">First Name</label>
                 <input
@@ -107,11 +107,11 @@ const Contact = () => {
                   name="getInTouch"
                   value={data.getInTouch}
                   onChange={handleTextChange}
-                  className="px-2 py-3  rounded-md border border-[rgba(18,18,18,0.3)] bg-transparent"
+                  className="px-2 py-3 rounded-md border border-[rgba(18,18,18,0.3)] bg-transparent"
                 >
-                  <option value="" >DropDown Menu</option>
+                  <option value="">DropDown Menu</option>
                   <option value="inquiry">Inquiry</option>
-                  <option value="appointment">Take Apppointment</option>
+                  <option value="appointment">Take Appointment</option>
                 </select>
               </div>
             </div>
@@ -139,7 +139,7 @@ const Contact = () => {
             <div className="w-full">
               <button
                 onClick={SendMessage}
-                className="bg-blue-500 text-white lg:px-4 lg:py-2 lg:ml-0 mb-12 sm:px-44 sm:ml-16 sm:py-2 md:ml-0 md:px-8 rounded"
+                className="bg-blue-500 text-white px-4 py-2 rounded"
               >
                 Send
               </button>
