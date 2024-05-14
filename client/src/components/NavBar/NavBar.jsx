@@ -35,7 +35,7 @@ const Navbar = () => {
             <Link to="/" className="flex items-center">
               <img className="h-8" src="logo1.png" alt="Logo" />
             </Link>
-            <div className="hidden md:block">
+            <div className="hidden lg:block ">
               <div className="lg:ml-60 md:ml-20 flex items-baseline space-x-4">
                 <Link to="/" className="text-black font-bold hover:text-emerald-900 px-3 py-2 rounded-md text-sm ">Home</Link>
                 <a href="#" className="text-black hover:text-emerald-900 px-3 py-2 rounded-md text-sm font-bold">Our Products</a>

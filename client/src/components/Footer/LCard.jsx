@@ -4,13 +4,13 @@ const FooterLogo = () => {
   return (
     <div className="flex flex-col text-start lg:flex-col md:flex-col gap-6 md:gap-10 md:text-start lg:text-start">
       {/* Logo */}
-      <img src="/logo1.png" alt="Logo" className="w-[160px] h-[40px] ml-[65px] md:-ml-[10px] mx-auto md:mx-0" />
+      <img src="/logo1.png" alt="Logo" className="w-[160px] h-[40px] ml-[200px] md:-ml-[10px] mx-auto md:mx-0" />
       {/* Description */}
-      <p className="text-gray-500 -mt-7 sm:w-64 lg:w-64 md:w-64 mx-auto md:mx-0">
+      <p className="text-gray-500 sm:ml-[200px] -mt-7 sm:w-64 lg:w-64 md:w-64 mx-auto md:mx-0">
         Generate outside the box thinking with the possibility to target the low.
       </p>
       {/* Images */}
-      <div className="md:hidden lg:flex   flex w-[24px] h-[24px] ml-[650px] lg:-ml-[10px] gap-10 -mt-3 mx-auto md:mx-0">
+      <div className="md:hidden lg:flex   flex w-[24px] h-[24px] ml-[650px] lg:-ml-[10px] gap-10 -mt-6 mx-auto md:mx-0">
         <img src="/f.png" alt="Image 1" />
         <img src="/go.png" alt="Image 2" />
         <img src="/app.png" alt="Image 3" />

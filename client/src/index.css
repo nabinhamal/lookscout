@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 body {
-  width: 100%;
+  width: 100vh;
   min-height: 100vh;
   height: 100vh;
   background: white;
@@ -13,34 +13,4 @@ body {
   flex-direction: column;
 }
 
-body,
-html {
-  scroll-behavior: smooth;
-  overflow-x: hidden;
-}
 
-/* Responsive design */
-
-/* For large screens */
-@media (min-width: 1024px) {
-  body {
-    max-width: 1024px; /* Fixed size for large screens */
-    margin: 0 auto; /* Center content */
-  }
-}
-
-/* For medium screens */
-@media (max-width: 1023px) {
-  body {
-    max-width: 768px; /* Fixed size for medium screens */
-    margin: 0 auto; /* Center content */
-  }
-}
-
-/* For small screens */
-@media (max-width: 639px) {
-  body {
-    max-width: 360px; /* Fixed size for small screens */
-    margin: 0 auto; /* Center content */
-  }
-}

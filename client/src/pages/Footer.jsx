@@ -8,7 +8,7 @@ import FooterLogo from "../components/Footer/LCard";
 
 const Footer = () => {
   return (
-    <section className="h-auto w-auto mt-16 px-8 lg:px-16">
+    <section className="h-screen w-screen lg:mt-32 mt-32 px-8 lg:px-16">
       <div className="text-center lg:text-left">
         {/* Wrapper div for logo and About Us card */}
         <div className="grid grid-cols-1 md:grid-cols-3 lg:flex gap-6 md:gap-8">
@@ -23,12 +23,12 @@ const Footer = () => {
           {/* Company Card */}
           <CompanyCard className="mb-8 md:mb-0" />
           {/* About Us Card */}
-          <AboutUsCard className="lg:text-white mb-8 md:mb-0" />
+          <AboutUsCard className="lg:text-white mb-8 md:mb-0 lg:block " />
         </div>
       </div>
       {/* Circular image */}
       <div className="flex justify-center mt-8 lg:mt-20">
-        <img src="cir.png" alt="cir" className="w-12 h-12 md:w-24 md:h-24 lg:w-32 lg:h-32" />
+        <img src="cir.png" alt="cir" className="w-10 h-10 md:w-12 md:h-12 lg:w-10 lg:h-10" />
       </div>
       {/* Copyright text */}
       <div className="text-center lg:text-left mt-4 lg:flex lg:justify-between">
